@@ -39,10 +39,6 @@ local function handleRollCommand(source, args, commandName)
     end
 end
 
-
-print('^3[Debug] RollCommand Parameters: ^7' .. json.encode(Config.Commands[Config.RollCommandName].parameters))
-print('^3[Debug] ShopRollCommand Parameters: ^7' .. json.encode(Config.Commands[Config.ShopRollCommandName].parameters))
-
 QBCore.Commands.Add(Config.RollCommandName, Config.Commands[Config.RollCommandName].description, Config.Commands[Config.RollCommandName].parameters, true, function(source, args)
     handleRollCommand(source, args, Config.RollCommandName)
 end)
