@@ -32,7 +32,7 @@ AddEventHandler('atiya-roll:shopDiceRollResult', function(rollResult, maxNumber,
     end
 
     local offset = vector3(Config.TextOffset.x, Config.TextOffset.y, Config.TextOffset.z)
-    local finalColor = isWinner and Config.WinningColor or Config.RegularRollColor
+    local finalColor = isWinner and Config.WinningColor or Config.RollColor
     local shuffleColor = Config.RollColor
 
     if Config.ShopRollShuffle.Enabled then
