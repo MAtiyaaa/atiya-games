@@ -19,8 +19,6 @@
 * **Enjoy!**
 
 ![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/15a14c0d-7cfc-4eae-ba14-56a8cd8d3727)
-![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/962a4e1b-08a3-4e4a-a6fb-e0ec945d1fe6)
-![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/7dca7070-230d-414a-9431-9fd89b84c3e6)
-![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/c95c9095-7d6c-432f-8f6d-4ee05799ba4a)
+![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/4c5aed84-dff1-4cb2-a189-104247cc06f6)
 
 
