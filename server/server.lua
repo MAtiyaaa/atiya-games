@@ -39,13 +39,6 @@ local function handleRollCommand(source, args, commandName)
     end
 end
 
-
-for itemName, commandName in pairs(Config.ItemCommandMapping) do
-    QBCore.Functions.CreateUseableItem(itemName, function(source)
-        TriggerClientEvent('atiya-roll:requestRollInput', source, itemName, commandName)
-    end)
-end
-
 QBCore.Commands.Add(Config.RollCommandName, Config.Commands[Config.RollCommandName].description, Config.Commands[Config.RollCommandName].parameters, true, function(source, args)
     handleRollCommand(source, args, Config.RollCommandName)
 end)
