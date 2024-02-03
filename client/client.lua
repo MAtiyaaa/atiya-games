@@ -32,18 +32,19 @@ AddEventHandler('atiya-roll:shopDiceRollResult', function(rollResult, maxNumber,
     end
 
     local offset = vector3(Config.TextOffset.x, Config.TextOffset.y, Config.TextOffset.z)
-    local color = isWinner and Config.WinningColor or Config.RollColor
+    local finalColor = isWinner and Config.WinningColor or Config.RegularRollColor
+    local shuffleColor = Config.RollColor
 
     if Config.ShopRollShuffle.Enabled then
         local endTime = GetGameTimer() + Config.ShopRollShuffle.ShuffleDuration
         while GetGameTimer() < endTime do
             local fakeRollResult = math.random(1, maxNumber)
             local text = string.format("%d/%d", fakeRollResult, maxNumber)
-            StartDisplayingText(text, offset, color, Config.ShopRollShuffle.ShuffleInterval, playerPed)
+            StartDisplayingText(text, offset, shuffleColor, Config.ShopRollShuffle.ShuffleInterval, playerPed)
             Citizen.Wait(Config.ShopRollShuffle.ShuffleInterval)
         end
         local finalText = isWinner and string.format("%s %d/%d %s", winningEmojis[1], rollResult, maxNumber, winningEmojis[2]) or string.format("%d/%d", rollResult, maxNumber)
-        StartDisplayingText(finalText, offset, color, Config.TextDisplayDurationAfterShuffle, playerPed)
+        StartDisplayingText(finalText, offset, finalColor, Config.TextDisplayDurationAfterShuffle, playerPed)
     else
     StartDisplayingText(text, offset, color, Config.TextDisplayDuration, playerPed)
     end
