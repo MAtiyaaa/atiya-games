@@ -5,6 +5,7 @@
 
 # Description
 * Simple drag-and-drop
+* Heavily inspired by a script on [AllusiveRP](https://discord.gg/allusiverp)
 * Have a bet? Have a casino? Have a lottery for your businesses? Now you can just roll for it. Just do /roll and the number you're rolling out of.
 * Different commands for casual rolls and rolls with a winning number
 * *Highly Configurable*
