@@ -31,4 +31,3 @@
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/549f323d-3d40-494f-b2cf-2597dda3c1b3)
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/b232832a-263f-402c-9701-7975249d8be3)
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/b6665705-c9e2-4b50-9e3c-b5c3620d370d)
-![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/efad3103-77f6-4c19-b58c-463e43595ab4)
