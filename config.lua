@@ -3,6 +3,9 @@ Config = {}
 -- Commands
 Config.RollCommandName = 'roll'
 Config.ShopRollCommandName = 'shoproll'
+Config.RPSCommandName = 'rps'
+Config.RPSAcceptCommandName = 'rpsaccept'
+Config.RPSDeclineCommandName = 'rpsdecline'
 
 Config.Commands = {
     [Config.RollCommandName] = {
@@ -17,7 +20,22 @@ Config.Commands = {
             { name = 'Max Number', help = 'Enter the maximum number' },
             { name = 'Winning Number', help = 'Enter the winning number' }
         }
-    }
+    },
+    [Config.RPSCommandName] = {
+        description = 'Challenge another player to a game of Rock Paper Scissors.',
+        parameters = {
+            { name = 'Player ID', help = 'Enter the ID of the player you want to challenge.' }
+        }
+    },
+    [Config.RPSAcceptCommandName] = {
+        description = 'Accept a Rock Paper Scissors challenge.',
+        parameters = {}
+    },
+    
+    [Config.RPSDeclineCommandName] = {
+        description = 'Decline a Rock Paper Scissors challenge.',
+        parameters = {}
+    },
 }
 
 Config.MaxRollNumber = 9999  -- Maximum number that can be rolled
@@ -28,7 +46,6 @@ Config.RollDisabledMessage = 'The roll command is currently disabled.'
 
 -- Shop Roll Settings
 Config.ShopRollShuffle = {
-    Enabled = true, -- If enabled, it will shuffle between random numbers until hitting the final number
     ShuffleDuration = 3000, -- Duration of the shuffling numbers in milliseconds
     ShuffleInterval = 300, -- Time between each shuffle number update in milliseconds
 }
