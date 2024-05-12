@@ -28,6 +28,11 @@
 ![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/4c5aed84-dff1-4cb2-a189-104247cc06f6)
 * Rock Paper Scissors
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/c394e730-86c3-4ba0-b6a5-af3cd49f95df)
+*
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/549f323d-3d40-494f-b2cf-2597dda3c1b3)
+*
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/b232832a-263f-402c-9701-7975249d8be3)
+*
+![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/b6665705-c9e2-4b50-9e3c-b5c3620d370d)
+*
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/efad3103-77f6-4c19-b58c-463e43595ab4)
