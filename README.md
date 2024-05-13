@@ -2,6 +2,7 @@
 * Made by Atiya
 * Discord: atiya.
 * Github: https://github.com/MAtiyaaa
+* [Join the Discord](https://discord.gg/GyeRexYR35)
 
 # Description
 * Simple drag-and-drop
