@@ -22,10 +22,10 @@
 * **Enjoy!**
 
 # Previews
-## Roll
+## Roll (/roll)
 ![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/15a14c0d-7cfc-4eae-ba14-56a8cd8d3727)
 ![image](https://github.com/MAtiyaaa/atiya-roll/assets/45663878/4c5aed84-dff1-4cb2-a189-104247cc06f6)
-## Rock Paper Scissors
+## Rock Paper Scissors (/rps)
 
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/c394e730-86c3-4ba0-b6a5-af3cd49f95df)
 ![image](https://github.com/MAtiyaaa/atiya-games/assets/45663878/549f323d-3d40-494f-b2cf-2597dda3c1b3)
