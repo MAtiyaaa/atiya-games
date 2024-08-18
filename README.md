@@ -1,4 +1,4 @@
-# FiveM QBCore Command Games (2 for Far)
+# Command Games for FiveM [QBCore]
 * Made by Atiya
 * Discord: atiya.
 * Github: https://github.com/MAtiyaaa
